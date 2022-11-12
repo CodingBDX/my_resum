@@ -61,7 +61,7 @@ h3,
 ul,
 p {
 
-    margin: 0;
+    margin: 0 .2em;
 }
 
 h1,
@@ -86,7 +86,8 @@ img {
 }
 
 section {
-    padding: 1.5rem 0;
+    padding: 1.5rem ..2em;
+    margin: 1em 0;
 
 }
 
@@ -133,6 +134,10 @@ header {
 
 
 @media screen and (max-width:968px) {
+    .skills_link {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
 
     .nav_menu {
         position: fixed;
@@ -401,7 +406,7 @@ address .bx {
 
 .skills_link {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .experience-education {

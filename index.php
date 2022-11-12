@@ -18,40 +18,40 @@
 				<div class="nav_menu" id="nav-menu">
 					<ul class="nav_list">
 						<li class="nav_item">
-							<a href="" class="nav_link">
+							<a href="" id="home" class="nav_link">
 								<i class='bx bx-home-heart active-link'></i>Home
 							</a>
 						</li>
 						<li class="nav_item">
-							<a href="" class="nav_link">
+							<a href="" id="profile" class="nav_link">
 								<i class='bx bx-user-check'></i>Profile
 
 							</a>
 						</li>
 
 						<li class="nav_item">
-							<a href="" class="nav_link">
+							<a href="" id="education" class="nav_link">
 								<i class="bx bx-book-heart"></i>Education
 
 							</a>
 						</li>
 
 						<li class="nav_item">
-							<a href="" class="nav_link">
+							<a href="" id="skill" class="nav_link">
 								<i class='bx bx-receipt'></i>Skills
 
 							</a>
 						</li>
 
 						<li class="nav_item">
-							<a href="" class="nav_link">
+							<a href="" id="experiences" class="nav_link">
 								<i class='bx bx-briefcase'></i>Experiences
 
 							</a>
 						</li>
 
 						<li class="nav_item">
-							<a href="" class="nav_link">
+							<a href="" id="certificates" class="nav_link">
 								<i class='bx bx-award'></i>Certificates
 
 							</a>
@@ -59,7 +59,7 @@
 
 						<li class="nav_item">
 
-							<a href="" class="nav_link">
+							<a href="" id="references" class="nav_link">
 								<i class='bx bx-link-external'></i>References
 
 							</a>
@@ -136,7 +136,7 @@
 					</section>
 					<section class="profil">
 						<h2 class="profil-title">Profile</h2>
-						<p>Je suis à la recherche d'une alternance mais j'etudie tous les offres</p>
+						<p>Je suis à la recherche d'une alternance mais j'etudie toutes les propositions</p>
 					</section>
 
 
@@ -145,6 +145,7 @@
 				<div class="right_resume">
 
 					<section class="skills">
+						<a href="#skills"></a>
 						<h2 class="skills-title">Skills</h2>
 
 						<div class="skills_content">
@@ -182,6 +183,7 @@ getSkills($skills);
 
 					<div class="experience-education">
 						<section class="experience">
+							<a href="#experiences"></a>
 							<h2 class="experience-title">
 								experiences
 							</h2>
@@ -236,6 +238,7 @@ foreach ($experience as $arrayIn => $other) {
 						</section>
 
 						<section class="education">
+							<a href="#education"></a>
 							<h2 class="education-title">
 								education
 							</h2>
@@ -283,9 +286,8 @@ foreach ($formation as $arrayIn => $other) {
 
 ?>
 
-						</section>
-					</div>
-					<h2 class="certification-title">
+<a href="#certification"></a>
+			<h2 class="certification-title">
 						certification
 					</h2>
 
@@ -342,8 +344,11 @@ getCertificats2($certificats);
 
 
 						</section>
+
+						
 					</div>
 					<section class="workon">
+						<a href="#workon"></a>
 						<h2 class="workon-title">Work on</h2>
 						<div class="workon_grid">
 							<div class="workon_link">
