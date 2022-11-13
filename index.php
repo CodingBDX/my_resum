@@ -136,7 +136,7 @@
 					</section>
 					<section class="profil">
 						<h2 class="profil-title">Profile</h2>
-						<p>Je suis à la recherche d'une alternance mais j'etudie toutes les propositions</p>
+						<p>Je suis à la recherche d'une alternance debutant en fevrier 2023 mais j'etudie toutes les propositions</p>
 					</section>
 
 
