@@ -369,8 +369,8 @@ address .bx {
     padding-top: .4em;
 }
 
-.education_line:nth-last-child(2),
-.experience_line:nth-last-child(2) {
+.education_line:nth-last-child(),
+.experience_line:nth-last-child() {
     height: 5vh;
     align-self: flex-start;
 }
