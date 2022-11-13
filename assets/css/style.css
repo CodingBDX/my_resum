@@ -420,6 +420,10 @@ address .bx {
 
 }
 
+.experience_years {
+    width: 90%;
+}
+
 .education-title,
 .skills-title,
 .experience-title,
