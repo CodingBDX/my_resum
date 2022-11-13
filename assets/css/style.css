@@ -38,6 +38,8 @@
 ::before,
 ::after {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
@@ -161,9 +163,7 @@ header {
 
 }
 
-.experience_line:nth-last-child(2) {
-    align-self: flex-start;
-}
+
 
 
 .nav_logo,
@@ -363,6 +363,18 @@ address .bx {
     margin-top: .25rem;
 }
 
+.education_line:nth-child(1n),
+.experience_line:nth-child(1n) {
+    /* margin-left: 50%; */
+    padding-top: .4em;
+}
+
+.education_line:nth-last-child(2),
+.experience_line:nth-last-child(2) {
+    height: 5vh;
+    align-self: flex-start;
+}
+
 .education_line,
 .experience_line {
     display: block;
@@ -377,7 +389,7 @@ address .bx {
 .certification_title {
     font-size: var(--h3-font-size);
     color: var(--title-color);
-    margin-bottom: var(--mb-1);
+    /* margin-bottom: var(--mb-1); */
 }
 
 .education_data,
@@ -421,7 +433,7 @@ address .bx {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    margin-left: 1em;
+    padding-left: 1em;
 }
 
 .experience-education {
