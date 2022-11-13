@@ -90,7 +90,7 @@
 						</h1>
 						<h3>developpeur web</h3>
 						<div class="pdf">
-							<a href="./assets/antony_cv_alternance_web_developer.pdf">Resum PDF</a>
+							<a href="./assets/resum_antony_charier_alternance.pdf">Resum PDF</a>
 						</div>
 
 
