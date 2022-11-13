@@ -145,9 +145,9 @@
 				<div class="right_resume">
 
 					<section class="skills">
-						<a href="#skills"></a>
+						<a href="#skills">
 						<h2 class="skills-title">Skills</h2>
-
+</a>
 						<div class="skills_content">
 							<div class="skills_link">
 
@@ -156,17 +156,15 @@
 function getSkills($arrays)
 {
     if (isset($_GET['lang-fr'])) {
-        echo ''.
-             implode('<p></p>', $arrays['lang-fr']).
-             '';
+        echo 
+             implode('<p></p>', $arrays['lang-fr']);
     } elseif (isset($_GET['lang-en'])) {
         echo '<ul><li>'.
                      implode('<li></li>', $arrays['lang-en']).
                      '</li></ul>';
     } else {
-        echo ''.
-implode('<p></p>', $arrays['lang-fr']).
-             '';
+        echo
+implode('', $arrays['lang-fr']);
     }
 }
 
@@ -211,7 +209,7 @@ foreach ($experience as $arrayIn => $other) {
     foreach ($other as $key => $value) {
         switch ($key) {
             case 'address' === $key:
-                echo '<div class="experience_title">'.$value.'</div>'.'</br>';
+                echo '<div class="experience_title">'.$value.'</div>';
 
                 break;
 
@@ -276,7 +274,7 @@ foreach ($formation as $arrayIn => $other) {
                 break;
 
             case 'Lieux' === $key:
-                echo '<div class="education_localisation">'.$value.'</div>'.'</br>';
+                echo '<div class="education_localisation">'.$value.'</div>';
 
                 break;
         }
